@@ -1,16 +1,28 @@
-# ariane_app
+# Ariane — App de Consultório (Agenda, Pacientes e Atendimentos)
 
-A new Flutter project.
+Aplicativo Flutter multi-plataforma para gestão de consultório, com foco em:
+- **Agenda** (marcação e confirmação de consultas)
+- **Cadastro de pacientes** (dados, contatos, histórico)
+- **Atendimentos** (evoluções, anexos, procedimentos)
+- **Financeiro básico** (recebimentos, formas de pagamento) *(opcional)*
+- **Notificações** (lembrar consulta, confirmação) *(opcional)*
 
-## Getting Started
+> **Plataformas**: Android, iOS, Web, Windows, macOS e Linux.  
+> **Stack base**: Flutter (Dart) + (opcional) Firebase (Auth/Firestore/Functions/Hosting).
 
-This project is a starting point for a Flutter application.
+## ✨ Funcionalidades (MVP)
 
-A few resources to get you started if this is your first Flutter project:
+- [x] Estrutura Flutter multi-plataforma
+- [ ] Agenda com visual diário/semanal
+- [ ] CRUD de Pacientes
+- [ ] Registro de Atendimento (com observações e anexos)
+- [ ] Envio de lembrete de consulta (push/e-mail/SMS) *(opcional)*
+- [ ] Relatórios simples (consultas por período, faturamento) *(opcional)*
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> Marque aqui o que já está pronto e ajuste os itens conforme seu escopo real.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧱 Arquitetura (sugestão)
+
+- **Camadas**: `core/` (erros, models, serviços); `features/` (agenda, pacientes, atendimentos); `app/` (theme, routes).
+- **Gerência de estado**: BLoC/Riverpod *(use a que está no projeto)*.
+- **Serviços** (opcional): Firebase Auth, Firestore, Cloud Functions.
