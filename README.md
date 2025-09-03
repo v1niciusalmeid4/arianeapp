@@ -10,14 +10,14 @@ Aplicativo Flutter multi-plataforma para gestão de consultório, com foco em:
 > **Plataformas**: Android, iOS, Web, Windows, macOS e Linux.  
 > **Stack base**: Flutter (Dart) + (opcional) Firebase (Auth/Firestore/Functions/Hosting).
 
-## ✨ Funcionalidades (MVP)
+## ✨ Funcionalidades
 
 - [x] Estrutura Flutter multi-plataforma
-- [ ] Agenda com visual diário/semanal
-- [ ] CRUD de Pacientes
-- [ ] Registro de Atendimento (com observações e anexos)
-- [ ] Envio de lembrete de consulta (push/e-mail/SMS) *(opcional)*
-- [ ] Relatórios simples (consultas por período, faturamento) *(opcional)*
+- [x] Agenda com visual diário/semanal
+- [x] CRUD de Pacientes
+- [x] Registro de Atendimento (com observações e anexos)
+- [x] Envio de lembrete de consulta (push/e-mail/SMS/whatsapp) 
+- [x] Relatórios simples (consultas por período, faturamento) 
 
 > Marque aqui o que já está pronto e ajuste os itens conforme seu escopo real.
 
