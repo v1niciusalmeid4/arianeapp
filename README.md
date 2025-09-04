@@ -19,10 +19,8 @@ Aplicativo Flutter multi-plataforma para gestão de consultório, com foco em:
 - [x] Envio de lembrete de consulta (push/e-mail/SMS/whatsapp) 
 - [x] Relatórios simples (consultas por período, faturamento) 
 
-> Marque aqui o que já está pronto e ajuste os itens conforme seu escopo real.
-
 ## 🧱 Arquitetura (sugestão)
 
 - **Camadas**: `core/` (erros, models, serviços); `features/` (agenda, pacientes, atendimentos); `app/` (theme, routes).
-- **Gerência de estado**: BLoC/Riverpod *(use a que está no projeto)*.
+- **Gerência de estado**: BLoC.
 - **Serviços** Firebase Auth, Firestore, Cloud Functions.
